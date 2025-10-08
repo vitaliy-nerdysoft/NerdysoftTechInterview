@@ -1,0 +1,27 @@
+[
+  {
+    "trackingNumber": "KWE123456789UA",
+    "status": "InTransit",
+    "estimatedDelivery": "2025-10-12T18:30:00Z",
+    "origin": {
+      "city": "Kyiv",
+      "country": "Ukraine"
+    },
+    "destination": {
+      "city": "Warsaw",
+      "country": "Poland"
+    },
+    "events": [
+      {
+        "timestamp": "2025-10-06T09:45:00Z",
+        "location": "Kyiv Warehouse",
+        "description": "Shipment picked up"
+      },
+      {
+        "timestamp": "2025-10-07T14:15:00Z",
+        "location": "Lviv Sorting Center",
+        "description": "Departed from facility"
+      }
+    ]
+  }
+]
