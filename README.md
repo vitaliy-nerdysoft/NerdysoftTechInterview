@@ -59,5 +59,6 @@ https://raw.githubusercontent.com/vitaliy-nerdysoft/NerdysoftTechInterview/main/
 ```
 
 ## 3. Якщо вистачить часу:
+* Додайте можливість запуску через docker/docker-compose
 * Додайте кешування відповіді
 * Додайте тести
