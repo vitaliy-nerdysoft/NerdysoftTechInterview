@@ -2,32 +2,27 @@
 
 ## 🧭 Overview
 
-Це тестове завдання створене для оцінки ваших практичних навичок у C# / .NET, а також розуміння концепцій відмовостійкості у веб-додатках.  
-Тривалість виконання: **~1 година**.
+This test task is designed to evaluate your practical skills in C# / .NET and your understanding of resilience concepts in web applications.
+Estimated completion time: ~1 hour.
 
-Можна використовувати будь-які nuget пакети. За потреби можна гуглити інформацію.
----
+You may use any NuGet packages and search for information online if needed.
+🚚 Task
 
-### 🚚 Завдання
+Implement a simple Web API that returns delivery information for an order.
 
-Реалізуйте простий Web API, який повертає **інформацію про доставку замовлення**.
+1️⃣. Create an endpoint that:
 
-## 1️. Створіть endpoint який:
-
-Дістає від стороннього провайдеру інформацію про нову доставку у форматі JSON (приклад нижче).
+Retrieves delivery information for a new order from an external provider in JSON format (link below), and save the received entities (some in-memory collection will be enough).
 
 https://raw.githubusercontent.com/vitaliy-nerdysoft/NerdysoftTechInterview/main/orders.json
 
-Данний провайдер може працювати зі збоями та іноді повертати 403 помилку.
-Та зберігає це замовлення (In-memory колекції буде достатньо).
+The external provider may be unstable and sometimes return a 403 error.
 
-## 2. Створіть endpoint який:
+2️⃣. Create an endpoint that:
 
-Відображає данне замовлення користувачеві.
----
+Displays the stored order information to the user.
 
-## 📦 Приклад відповіді API
-
+📦 Example API Response
 ```json
 [
   {
@@ -57,8 +52,3 @@ https://raw.githubusercontent.com/vitaliy-nerdysoft/NerdysoftTechInterview/main/
   }
 ]
 ```
-
-## 3. Якщо вистачить часу:
-* Додайте можливість запуску через docker/docker-compose
-* Додайте кешування відповіді
-* Додайте тести
