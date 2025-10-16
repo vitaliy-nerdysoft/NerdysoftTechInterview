@@ -1,4 +1,4 @@
-# 📦 Logistics Delivery API — Test Task (.NET, 1 hour)
+## 📦 Logistics Delivery API — Test Task (.NET, 1 hour)
 
 ## 🧭 Overview
 
@@ -6,7 +6,8 @@ This test task is designed to evaluate your practical skills in C# / .NET and yo
 Estimated completion time: ~1 hour.
 
 You may use any NuGet packages and search for information online if needed.
-🚚 Task
+
+### 🚚 Task
 
 Implement a simple Web API that returns delivery information for an order.
 
@@ -20,7 +21,7 @@ The external provider may be unstable and sometimes return a 403 error.
 
 2️⃣. Create an endpoint that:
 
-Displays the stored order information to the user.
+Displays the stored order information to the user by its ID.
 
 📦 Example API Response
 ```json
